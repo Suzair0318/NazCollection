@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fda8a08c.css",
+    "main.js": "/static/js/main.81a0ebe2.js",
+    "static/media/winter.jpg": "/static/media/winter.93019f93fb7824a214cf.jpg",
+    "static/media/641-removebg-preview.png": "/static/media/641-removebg-preview.0fe7e621138e75efa6b4.png",
+    "static/media/KhaadiLogo-22.png": "/static/media/KhaadiLogo-22.560ad177c39e8a025880.png",
+    "static/media/cash-removebg-preview.png": "/static/media/cash-removebg-preview.af32147257a9490ca5dd.png",
+    "static/media/DiscountSale.gif": "/static/media/DiscountSale.a78ecfc5ae200e5f293b.gif",
+    "static/media/cover_naz.jpeg": "/static/media/cover_naz.eeacae66a132fcf7f256.jpeg",
+    "static/media/bonanza.jpeg": "/static/media/bonanza.72b4f2548b1ebb2ec7ef.jpeg",
+    "static/media/logo_naz.jpeg": "/static/media/logo_naz.af68f50012389c10b018.jpeg",
+    "static/media/sanasafinaz.png": "/static/media/sanasafinaz.27443df417697aef07bc.png",
+    "static/media/Gul-Ahmed-Logo-300x200.png": "/static/media/Gul-Ahmed-Logo-300x200.3d1a13da321c16c457f7.png",
+    "static/media/Sapphire.png": "/static/media/Sapphire.f0cb6931d89ec392ec5f.png",
+    "index.html": "/index.html",
+    "main.fda8a08c.css.map": "/static/css/main.fda8a08c.css.map",
+    "main.81a0ebe2.js.map": "/static/js/main.81a0ebe2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fda8a08c.css",
+    "static/js/main.81a0ebe2.js"
+  ]
+}
