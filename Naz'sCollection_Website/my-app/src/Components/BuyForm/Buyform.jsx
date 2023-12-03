@@ -50,7 +50,7 @@ export const Buyform = () => {
     
       e.preventDefault();
    
-       const postorder = await axios.post('http://localhost:3000/Naz_Order' , {
+       const postorder = await axios.post('https://backend-amber-seven.vercel.app/Naz_Order' , {
         order_id : ord,
         firstname : formdata.firstname,
         lastname : formdata.lastname,
