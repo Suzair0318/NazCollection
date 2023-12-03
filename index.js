@@ -11,7 +11,7 @@ const port =  process.env.PORT ;
 const path = require('path');
 
 // for cors policy error
-const cors = require('cors');
+// const cors = require('cors');
 
  // "dev": "nodemon ./src/app.js"
 
@@ -42,11 +42,11 @@ app.use((req, res, next) => {
    next();
  });
   
- let corsOptions = {
-  origin: "http://localhost:3001",
-};
+//  let corsOptions = {
+//   origin: "http://localhost:3001",
+// };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 // middleware for file
 const fileupload = require('express-fileupload');
@@ -92,7 +92,7 @@ app.get('/naz_api_data' , async( req , res ) => {
 
                 const get_api = await NazDB.find(); 
                 
-                  res.status(200).json(get_api);
+                  res.status(200).send(get_api);
                 
                 
                 
