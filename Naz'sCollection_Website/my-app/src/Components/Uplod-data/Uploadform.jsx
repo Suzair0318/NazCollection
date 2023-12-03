@@ -47,7 +47,7 @@ export const Uploadform = () => {
      try {
      
       
-      const postuploaddata = await axios.post('http://localhost:3000/Send_data_api'  , {
+      const postuploaddata = await axios.post('https://backend-amber-seven.vercel.app/Send_data_api'  , {
         brand : uploaddata.brand,
         title : uploaddata.title,
         description : uploaddata.description,
