@@ -5,14 +5,14 @@ import axios from 'axios';
 
 
 export const fetch_api = createAsyncThunk('fetchdata' , async() => {
-     const getdata = await axios.get('http://localhost:3000/naz_api_data' , {crossOriginIsolated : true });
+     const getdata = await axios.get('https://backend-amber-seven.vercel.app/naz_api_data' , {crossOriginIsolated : true });
      return getdata
      
 })
 
 export const fetchsingle_api = createAsyncThunk('fetchsingledata' , async(id) => {
 
-      const getsingledata = await axios.get( `http://localhost:3000/Singlecart_api/${id}`);
+      const getsingledata = await axios.get( `https://backend-amber-seven.vercel.app/Singlecart_api/${id}`);
     
       return getsingledata
       
@@ -20,12 +20,12 @@ export const fetchsingle_api = createAsyncThunk('fetchsingledata' , async(id) =>
 
 export const fetchsearch_api = createAsyncThunk('fetchsearch' , async(search) => {
      
-     const getsearch = await axios.get(`http://localhost:3000/Search/${search}`);
+     const getsearch = await axios.get(`https://backend-amber-seven.vercel.app/Search/${search}`);
      return getsearch
 })
 
 export const fetchprice_api = createAsyncThunk('fetchprice' , async(price) => {
-     const getprice = await axios.get(`http://localhost:3000/Searchprice/${price}`);
+     const getprice = await axios.get(`https://backend-amber-seven.vercel.app/Searchprice/${price}`);
      return getprice
 })
 
